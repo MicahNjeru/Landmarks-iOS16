@@ -1,7 +1,7 @@
 #  Landmarks iOS 16
 ## Introduction
 - This is an iOS 16 application I have built by learning from Apple on how to build iPhone apps 
-- The tutorial can be found (here)[https://developer.apple.com/tutorials/swiftui]
+- The tutorial can be found [here](https://developer.apple.com/tutorials/swiftui)
 
 ### What's in the app
 - An beautifully organized list view of various park destinations across the US with pictures included
