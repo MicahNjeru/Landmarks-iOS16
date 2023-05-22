@@ -13,12 +13,12 @@
 
 ### What I've learnt
 How to:
-    1. add, modify and connect multiple views
-    2. pass data across multiple views
-    3. decode and use json data
-    4. use Mapkit
-    5. animate views
-    6. add and modify charts
+   1. add, modify and connect multiple views
+   2. pass data across multiple views
+   3. decode and use json data
+   4. use Mapkit
+   5. animate views
+   6. add and modify charts
 
 ### Recommendations and what's next
 1. Work on this app to improve its usablity and user interface
