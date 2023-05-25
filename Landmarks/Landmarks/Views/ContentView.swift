@@ -21,6 +21,7 @@ struct ContentView: View {
             CategoryHome()
                 .tabItem {
                     Label("Featured", systemImage: "star")
+                    Label("Featured", systemImage: "star")
                 }
                 .tag(Tab.featured)
             

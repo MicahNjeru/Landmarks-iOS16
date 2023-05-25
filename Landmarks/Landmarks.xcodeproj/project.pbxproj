@@ -46,6 +46,19 @@
 		75E4D9AD2A16070B00AF4E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E4D9AC2A16070B00AF4E71 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		75E7F32E2A1F430200E69105 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		751B983D2A1BB82D00C814E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75382B272A160DC900DF5B7D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -256,6 +269,7 @@
 				75E4D99E2A16070B00AF4E71 /* Sources */,
 				75E4D99F2A16070B00AF4E71 /* Frameworks */,
 				75E4D9A02A16070B00AF4E71 /* Resources */,
+				75E7F32E2A1F430200E69105 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -474,6 +488,7 @@
 		75E4D9B12A16070B00AF4E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +518,7 @@
 		75E4D9B22A16070B00AF4E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
